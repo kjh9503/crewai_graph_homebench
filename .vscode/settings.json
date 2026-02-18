@@ -1,8 +1,0 @@
-{
-    "editor.defaultFormatter": "ms-python.python",
-    "notebook.defaultFormatter": "ms-python.python",
-    "prettier.embeddedLanguageFormatting": "off",
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    }
-}
