@@ -1,0 +1,10 @@
+{
+    "id": "home40_one_224",
+    "input": "Set the heating temperature in the living room to 19 degrees.",
+    "output": "''' living_room.heating.set_temperature(19)'''",
+    "perception": {
+        "contexts": [
+            "The evening air has settled into the living room, leaving behind a subtle chill that seeps into the corners, making it less inviting as you settle in for a cozy evening together."
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "home40_one_232",
+    "input": "Set the heating temperature in the living room to 23 degrees.",
+    "output": "''' living_room.heating.set_temperature(23)'''",
+    "perception": {
+        "contexts": [
+            "A stark chill seeps into the living room as the setting sun casts long shadows, and the thinning warmth of the late afternoon begins to surrender to the coolness of early evening.",
+            "The living room's air feels cooler and emptier as family members settle in for movie night, wishing for a cozy embrace rather than the crisp draft breezing through.",
+            "With the shift from afternoon to evening, a faint, creeping cold begins to inhabit the corners of the living room, urging occupants to seek the solace of gentle warmth."
+        ]
+    }
+}

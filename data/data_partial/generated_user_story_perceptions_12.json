@@ -1,0 +1,1 @@
+{"id": "home40_one_198", "input": "Set the brightness of the light to 20 in the living room.", "output": "''' living_room.light.set_brightness(20)'''", "perception": {"contexts": ["The living room has been engulfed in the soft glow of twilight, making it a challenge to discern the finer details of your book, leading to an increased squinting effort."]}}

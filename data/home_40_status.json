@@ -1,0 +1,96 @@
+{
+    "capabilities": {
+        "living_room": {
+            "light": {
+                "operations": [
+                    "turn_on",
+                    "turn_off",
+                    "set_brightness",
+                    "set_color"
+                ],
+                "parameters": {
+                    "set_brightness": [
+                        {
+                            "name": "brightness",
+                            "type": "int"
+                        }
+                    ],
+                    "set_color": [
+                        {
+                            "name": "color",
+                            "type": "typing.Tuple[int, int, int]"
+                        }
+                    ]
+                }
+            },
+            "heating": {
+                "operations": [
+                    "turn_on",
+                    "turn_off",
+                    "set_temperature",
+                    "set_mode"
+                ],
+                "parameters": {
+                    "set_temperature": [
+                        {
+                            "name": "temperature",
+                            "type": "int"
+                        }
+                    ],
+                    "set_mode": [
+                        {
+                            "name": "mode",
+                            "type": "str"
+                        }
+                    ]
+                }
+            },
+            "fan": {
+                "operations": [
+                    "turn_on",
+                    "turn_off",
+                    "set_swing"
+                ],
+                "parameters": {
+                    "set_swing": [
+                        {
+                            "name": "swing",
+                            "type": "str"
+                        }
+                    ]
+                }
+            },
+            "air_purifiers": {
+                "operations": [
+                    "turn_on",
+                    "turn_off",
+                    "set_mode"
+                ],
+                "parameters": {
+                    "set_mode": [
+                        {
+                            "name": "mode",
+                            "type": "str"
+                        }
+                    ]
+                }
+            },
+            "dehumidifiers": {
+                "operations": [
+                    "turn_on",
+                    "turn_off",
+                    "set_mode"
+                ],
+                "parameters": {
+                    "set_mode": [
+                        {
+                            "name": "mode",
+                            "type": "str"
+                        }
+                    ]
+                }
+            }
+        }
+
+    }
+}

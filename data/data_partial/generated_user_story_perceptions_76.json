@@ -1,0 +1,1 @@
+{"id": "home40_one_635", "input": "Set the dehumidifiers in the store room to sleep mode.", "output": "''' store_room.dehumidifiers.set_mode(sleep)'''", "perception": {"contexts": ["Upon entering the store room, a musty and damp sensation lingers in the air, creating discomfort and a pressing need for fresher conditions."]}}

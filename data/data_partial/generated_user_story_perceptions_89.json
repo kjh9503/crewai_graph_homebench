@@ -1,0 +1,12 @@
+{
+    "id": "home40_one_231",
+    "input": "Lower the heating temperature in the living room by 61 degrees.",
+    "output": "''' living_room.heating.set_temperature(22)'''",
+    "perception": {
+        "contexts": [
+            "The living room feels too warm for comfort, and a desire for a cooler, more refreshing space becomes evident, especially after an active day.",
+            "As the evening sets in, the warmth in the living room makes the air feel a touch heavier, provoking a need for a lighter atmosphere.",
+            "The combination of sunlight streaming in and ongoing activities causes the living room to become noticeably hotter, prompting a longing for a cooler environment."
+        ]
+    }
+}

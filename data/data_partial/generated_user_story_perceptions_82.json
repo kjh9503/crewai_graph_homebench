@@ -1,0 +1,10 @@
+{
+    "id": "home40_one_76",
+    "input": "Set the intensity of the humidifier to 20 in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(20)'''",
+    "perception": {
+        "contexts": [
+            "The air in the bedroom feels unusually dry, causing discomfort to the skin and throat and hinting at a need for more moisture in the space for a restful sleep."
+        ]
+    }
+}

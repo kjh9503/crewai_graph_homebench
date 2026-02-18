@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "home40_one_33",
+    "input": "Lower the temperature of the air conditioner in the master bedroom to 20 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(20)'''",
+    "perception": {
+      "contexts": [
+        "The cool breeze in the bedroom has faded, leaving the air feeling warm and stagnant, causing the skin to stick to the bedsheets.",
+        "The gentle warmth creeping through the room disrupts the restful nighttime comfort, making it difficult to settle into restful slumber.",
+        "A gentle but persistent warmth lingers in the space, enveloping the room and making it less conducive to restful sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_74",
+    "input": "Set the intensity of the humidifier to 10 in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(10)'''",
+    "perception": {
+      "contexts": [
+        "The atmosphere in the master bedroom has become noticeably dry, causing a scratchy sensation in the throat and making breathing uncomfortable during the night.",
+        "Lying in bed, you feel the air around you is arid and lacking moisture, leading to skin feeling tight and parched.",
+        "The evening brings a cooling breeze, but the indoor air lacks sufficient humidity, causing a discomforting dryness that disrupts restful sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_4",
+    "input": "Set the brightness of the light to 10 in the master bedroom.",
+    "output": "''' master_bedroom.light.set_brightness(10)'''",
+    "perception": {
+      "contexts": [
+        "As evening descends, the room transforms into a relaxing retreat; however, the dimness begins to invite drowsiness prematurely, making it difficult to remain active or engage in any late-night reading.",
+        "The coziness of the room has become tinged with a sense of drowsiness as the natural light fades, causing some difficulty in distinguishing objects clearly and making it a challenge to navigate comfortably.",
+        "Warm shadows slowly envelop the space, creating a tranquil yet somber atmosphere that whispers an invitation to unwind but diminishes the energy needed for nighttime activities.",
+        "The evening ambiance wraps the room in a soft and muted tone, but the lack of sufficient illumination makes it hard to stay awake or accomplish tasks that require focus and clarity."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_330",
+    "input": "Set the brightness of the light to 80 in the study room.",
+    "output": "''' study_room.light.set_brightness(80)'''",
+    "perception": {
+      "contexts": [
+        "As the sky fades into evening hues, shadows deepen in the study room, making it challenging to continue reading papers scattered across the desk."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_582",
+    "input": "Decrease the brightness of the light in the garage by 23 percent.",
+    "output": "''' garage.light.set_brightness(60)'''",
+    "perception": {
+      "contexts": [
+        "The glare from the overhead light is too intense against the hobby workbench, casting sharp shadows that make it difficult to see delicate details.",
+        "After sundown, the ambient light in the garage becomes overwhelming, creating a harsh contrast with the softer light spilling in from the evening sky.",
+        "During evening hours, the current brightness strains the eyes when transitioning to or from adjacent darker areas.",
+        "The evening wind-down routine makes the bright light feel intrusive, disturbing the calm atmosphere desired during quieter activities."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_28",
+    "input": "Lower the air conditioner temperature in the master bedroom by 10 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(17)'''",
+    "perception": {
+      "contexts": [
+        "The stillness of the evening air becomes almost tangible, cloaking the room in a warmth that lingers unforgivingly under the cover of night, making restful sleep elusive.",
+        "The night is heavy with the oppressive warmth that persists even with the windows open, resulting in restlessness and discomfort under the layers of bedclothes.",
+        "As sleep beckons, the atmosphere in the room feels suffocating, the kind of dense warmth that clutches at the skin, compelling a need for a refreshing chill.",
+        "Lying under the blanket feels more like a sweltering cocoon, with the air in the room carrying the weight of an unyielding summer's end warmth, preventing deep, tranquil slumber."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_274",
+    "input": "Set the brightness of the light to 40% in the dining room.",
+    "output": "''' ding_room.light.set_brightness(40)'''",
+    "perception": {
+      "contexts": [
+        "The dining room ambiance feels overly bright, creating a stark contrast to the relaxed mood desired for the evening meal.",
+        "Family members squint as the table's surface reflects too much light during dinner time, hindering a cozy dining experience.",
+        "After sunset, the dining area bathes in an excessive glare, interfering with the intimate dinner setting and making everything appear harsh."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_568",
+    "input": "Turn off the light in the garage.",
+    "output": "''' garage.light.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "Music and chatter fill the garage, with the last of the day's projects winding down and the need for brightness fading as activities conclude.",
+        "A relaxing evening descends inside, while stored vehicles cast long shadows, suggesting the end of a productive session in this versatile space.",
+        "Softly dwindling ambient light signifies that the day's activities are drawing to a close, leaving the garage calm and still.",
+        "The garage, once ablaze with the hustle of hobbyists or mechanics, now quiets as evening approaches, making the lingering brightness seem unnecessary."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_3",
+    "input": "Reduce the brightness of the light in the master bedroom by 50%.",
+    "output": "''' master_bedroom.light.set_brightness(0)'''",
+    "perception": {
+      "contexts": [
+        "A wave of harsh glare hits from the overhead light, making it difficult to relax in bed and causing a strain on sleepy eyes.",
+        "As the evening deepens, the lighting remains aggressively bright, preventing any sense of calm or readiness for sleep.",
+        "The sharp illumination disrupts the tranquil atmosphere in the bedroom, creating an unwelcome alertness when trying to unwind."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_535",
+    "input": "Set the intensity of the aromatherapy device to 10 on the balcony.",
+    "output": "''' balcony.aromatherapy.set_intensity(10)'''",
+    "perception": {
+      "contexts": [
+        "As you step onto the balcony, a gentle breeze carries distant sounds of city life, yet there's a noticeable absence of soothing scents one might expect in this outdoor retreat.",
+        "The balcony, bathed in the warm glow of the setting sun, lacks a calming aroma to complement its tranquil ambiance, leaving the senses yearning for a fragrance that enhances relaxation.",
+        "Despite the refreshing open air, the balcony feels stark, missing the enveloping comfort of a familiar scent that could transform the space into a personal haven.",
+        "The outdoor seating area presents a perfect view, yet the air appears to lack an inviting fragrance that would ideally blend with the natural surroundings to create a comforting escape."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_357",
+    "input": "Increase the intensity of the dehumidifier in the study room to 40%.",
+    "output": "''' study_room.dehumidifiers.set_intensity(40)'''",
+    "perception": {
+      "contexts": [
+        "An oppressive dampness in the study room, mixed with a musty atmosphere, creates a less than ideal environment for productivity, requiring a fresher air quality.",
+        "There’s a stifling cloying sensation hanging in the air of the study room, leaving a sense of heaviness that disrupts concentration.",
+        "A saturation of moisture in the study room air leaves paper feeling limp and electronics slightly sticky, hinting at an unwelcome humidity level for focused work."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_222",
+    "input": "Set the heating temperature in the living room to 18 degrees.",
+    "output": "''' living_room.heating.set_temperature(18)'''",
+    "perception": {
+      "contexts": [
+        "A sudden evening chill fills the living room, prompting a search for warmth and coziness while settling in for a movie night.",
+        "The once inviting space now feels colder as the sun sets, making relaxation difficult with a noticeable temperature drop.",
+        "Family members gather, wrapped in blankets, discussing how the familiar space feels much cooler than earlier in the day.",
+        "The atmosphere inside transitions from warm to uncomfortably brisk as the weather outside shifts, requiring a comforting warmth indoors.",
+        "Feet touch the cool surface of the living room floor, signaling a noticeable change in temperature that makes one long for added warmth."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_198",
+    "input": "Set the brightness of the light to 20 in the living room.",
+    "output": "''' living_room.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "The living room has been engulfed in the soft glow of twilight, making it a challenge to discern the finer details of your book, leading to an increased squinting effort."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_578",
+    "input": "Decrease the brightness of the light in the garage by 43%.",
+    "output": "''' garage.light.set_brightness(40)'''",
+    "perception": {
+      "contexts": [
+        "As you enter the garage, the glaring overhead lights create an uncomfortable contrast against the mellow surroundings of the evening, making it difficult to relax while working on hobbies or projects.",
+        "The bright lights in the garage cast harsh shadows that strain the eyes as you attempt to focus on small details during intricate tasks.",
+        "After a long day, the stark illumination in the garage feels overwhelming, creating a longing for a more subdued and calming atmosphere conducive to unwinding with a leisurely activity."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_393",
+    "input": "Increase the brightness of the light in the kitchen by 77 percent.",
+    "output": "''' kitchen.light.set_brightness(90)'''",
+    "perception": {
+      "contexts": [
+        "As the sun begins to dip below the horizon, the kitchen becomes dimmer, making it challenging to clearly see the ingredients while preparing dinner.",
+        "The cloudy sky blocks much of the natural light that usually floods the kitchen, leaving the room in shadow and hindering meal preparation.",
+        "The overcast day casts a dull pallor over the kitchen, reducing visibility and making it difficult to read recipes or handle sharp kitchen tools safely.",
+        "The current lighting fails to illuminate the countertops fully, creating shadows that obscure visibility and complicate the cooking process.",
+        "A sudden change in weather has darkened the kitchen, making it less inviting and more difficult to focus on culinary tasks in the reduced light."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_27",
+    "input": "Set the air conditioner temperature in the master bedroom to 17 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(17)'''",
+    "perception": {
+      "contexts": [
+        "The bedroom air feels warm and stagnant, making it uncomfortable for restful sleep despite the late hour.",
+        "As the evening blankets the sky, a warm indication rises, and whispers of discomfort linger in the room's stillness, prompting a longing for a crisp, refreshing environment conducive for slumber.",
+        "A humid heaviness envelops the room as the night progresses, creating a sultry atmosphere that hinders relaxation and peaceful rest.",
+        "The sensation of heat lingers in the space, coupled with the desire for a cool and calming retreat for a restful night's sleep.",
+        "A subtle warmth encroaches as the evening wears on, fostering restlessness and yearning for a cooler sleeping sanctuary."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_379",
+    "input": "Increase the brightness of the light in the kitchen by 7%.",
+    "output": "''' kitchen.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "Midday activities such as meal preparation or cooking create shadows on the countertops, making it challenging to properly see ingredients and utensils.",
+        "An overcast sky reduces the natural light filtering into the room, causing a dim atmosphere that requires enhancement to facilitate daily cooking tasks.",
+        "Experience slight difficulty in reading recipes or locating kitchen items due to the subdued lighting during cloudy weather.",
+        "Presence of lingering shadows around the cooking area, impeding visibility and creating an unwelcoming atmosphere during peak kitchen usage before lunch."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_520",
+    "input": "Decrease the brightness of the light on the balcony by 33%.",
+    "output": "''' balcony.light.set_brightness(50)'''",
+    "perception": {
+      "contexts": [
+        "The gentle transition from day to night brings a soft glow as the sun begins to set, and the overwhelming brightness on the balcony becomes too intense for relaxed evening moments.",
+        "After a long day, the harsh light on the balcony starts to strain the eyes, diminishing the serene atmosphere needed for unwinding.",
+        "The desire for a tranquil evening under the stars is disrupted by the intense brightness, making it feel more like daylight than a relaxing night setting."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_239",
+    "input": "Lower the heating temperature in the living room by 57 degrees.",
+    "output": "''' living_room.heating.set_temperature(26)'''",
+    "perception": {
+      "contexts": [
+        "The warmth in the living room feels overwhelming during a family gathering, causing a layer of discomfort and flushed faces.",
+        "While watching a movie in the living room, a stifling heat disturbs the relaxing ambiance, making it difficult to concentrate on the film.",
+        "A cozy afternoon spent in the living room turns uncomfortable as the air becomes excessively warm, leading to restlessness and perspiration.",
+        "During a board game session with friends, the living room transforms into a hot and oppressive space, distracting from the fun.",
+        "In the evening, as twilight approaches, the living room retains heat from earlier in the day, creating a sultry atmosphere that feels suffocating."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_507",
+    "input": "Turn on the light in the balcony.",
+    "output": "''' balcony.light.turn_on()'''",
+    "perception": {
+      "contexts": [
+        "The soft colors of twilight begin to fade as the evening advances, leaving the balcony shrouded in shadows. The once vibrant space now feels enveloped in dimness, making it challenging to enjoy the outdoor ambiance."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_26",
+    "input": "Lower the air conditioner temperature in the master bedroom by 11 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(16)'''",
+    "perception": {
+      "contexts": [
+        "The comfort of the bed becomes elusive as the night's warmth envelops you, leading to a restless, sticky feeling that makes it difficult to drift into sleep.",
+        "The sheets cling uncomfortably, the room's warmth rising to a level where laying still brings little relief, disrupting the soothing transition to dreaming.",
+        "Sleep seems distant as your skin begins to perspire lightly, the air feeling close and stifling, urging a yearning for a cooler embrace.",
+        "The ambient warmth has subtly shifted, leaving behind traces of discomfort with each passing minute, longing for a refreshing atmospheric change."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_67",
+    "input": "Set the air conditioner in the master bedroom to swing in the middle position.",
+    "output": "''' master_bedroom.air_conditioner.set_swing(middle)'''",
+    "perception": {
+      "contexts": [
+        "In the master bedroom, the atmosphere has shifted from comfortably cool to a stagnant stillness, making it hard to achieve restful sleep.",
+        "The air in the room feels motionless and trapped, causing a discomfort that disrupts the relaxation process before bedtime.",
+        "A growing sense of unease in breathing spreads across the bedroom, leaving an urge for a gentle circulation of air for a restful environment."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_31",
+    "input": "Set the air conditioner temperature in the master bedroom to 19 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(19)'''",
+    "perception": {
+      "contexts": [
+        "The night air feels stagnant despite the clock inching closer to midnight, leaving the room feeling warmer than comforting against the cotton sheets.",
+        "A bead of sweat forms on the brow uncomfortably within minutes of lying down, making it hard to drift into slumber.",
+        "The gentle hum from outside is the only sound breaking the palpable thickness in the air as the warm night envelops the room.",
+        "A restless toss and turn continue as the gentle breeze from the outside seems to have completely stalled, causing a sense of warmth to linger."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_415",
+    "input": "Decrease the brightness of the light in the bathroom by 13 percent.",
+    "output": "''' bathroom.light.set_brightness(70)'''",
+    "perception": {
+      "contexts": [
+        "The bathroom lighting feels glaringly bright, causing discomfort and an urge to squint while preparing for bed or an early rise.",
+        "A softer ambient light is desired as the current illumination makes the bathroom space feel too harsh and unwelcoming."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_440",
+    "input": "Set the intensity of the aromatherapy in the foyer to 70.",
+    "output": "''' foyer.aromatherapy.set_intensity(70)'''",
+    "perception": {
+      "contexts": [
+        "As guests gather in the foyer, the air feels bland and lacking in dimension. The subtle ambiance usually present seems to be missing, creating a space that feels less inviting and vibrant.",
+        "The vestibule carries a neutral, nondescript scent which fails to contribute to the welcoming warmth typically desired when entering a home.",
+        "Upon entering the foyer, there is a noticeable absence of the usual comforting fragrance that usually greets family and visitors, leaving an impression of an undecorated and unembellished space."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_88",
+    "input": "Set the intensity of the humidifier to 80% in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(80)'''",
+    "perception": {
+      "contexts": [
+        "The skin feels tight and dry, and a slight itchiness begins to creep in as the night air becomes arid and the throat feels parched while trying to drift into sleep in the softly lit room."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_400",
+    "input": "Turn off the lights in the bathroom.",
+    "output": "''' bathroom.light.set_brightness(0)'''",
+    "perception": {
+      "contexts": [
+        "Soft beams of light filter through as the house settles into evening, yet the bathroom remains brightly lit, creating an unwelcoming glare that disrupts the otherwise calming ambiance of the home."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_269",
+    "input": "Decrease the brightness of the light in the dining room by 73 percent.",
+    "output": "''' ding_room.light.set_brightness(10)'''",
+    "perception": {
+      "contexts": [
+        "The dining room is too brightly lit for your evening dinner, making it hard to enjoy a cozy and relaxed meal experience."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_262",
+    "input": "Set the dehumidifiers in the living room to auto mode.",
+    "output": "''' living_room.dehumidifiers.set_mode(auto)'''",
+    "perception": {
+      "contexts": [
+        "The air in the living room feels heavy and muggy, creating an uncomfortable atmosphere as it retains too much moisture, causing a lack of freshness.",
+        "The living room's ambiance seems stifling as the moist air clings to the skin, making the area feel damp and unwelcoming.",
+        "The room's air becomes thick and oppressive, with humidity levels noticeably high, detracting from the overall comfort for anyone spending time there.",
+        "A slight sheen of moisture seems to linger on surfaces in the living room, suggesting a need for better air moisture balance to eliminate the damp sensation.",
+        "The household members notice a lack of crispness and clarity in the air, perceiving a humid heaviness that suffocates the room's ambience."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_394",
+    "input": "Set the brightness of the light to 100 in the kitchen.",
+    "output": "''' kitchen.light.set_brightness(100)'''",
+    "perception": {
+      "contexts": [
+        "The kitchen area becomes bustling with activity as mealtime approaches, with family members preparing meals and needing ample illumination to see ingredients clearly."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_553",
+    "input": "Set the intensity of the aromatherapy in the balcony to 100%.",
+    "output": "''' balcony.aromatherapy.set_intensity(100)'''",
+    "perception": {
+      "contexts": [
+        "The gentle breeze on the balcony carries a faint aroma that barely lingers, creating a desire for a more invigorating and enveloping scent experience as you unwind in your outdoor space."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_366",
+    "input": "Increase the intensity of the dehumidifier in the study room by 50%.",
+    "output": "''' study_room.dehumidifiers.set_intensity(80)'''",
+    "perception": {
+      "contexts": [
+        "The air in the study room feels unusually sticky and dense, making it challenging to concentrate on work at the desk, as the humidity from the afternoon rain lingers heavily, threatening to stick pages together and causing a persistent damp sensation on the skin."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_266",
+    "input": "Set the brightness of the light to 0 in the dining room.",
+    "output": "''' ding_room.light.set_brightness(0)'''",
+    "perception": {
+      "contexts": [
+        "Gently finishing dinner under the warm glow of the lights, the atmosphere calls for a shift towards a calmer, more intimate setting.",
+        "As the meal concludes, and laughter tapers off, the room begins to embrace a more subdued ambiance.",
+        "The lingering conversations are now accompanied by a desire for softer illumination to match the relaxing mood.",
+        "Post-dinner relaxation sets in, inviting a quieter, less luminous environment to complement the transition to evening activities."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_122",
+    "input": "Set the air conditioner temperature in the guest bedroom to 17 degrees.",
+    "output": "''' guest_bedroom.air_conditioner.set_temperature(17)'''",
+    "perception": {
+      "contexts": [
+        "After an unusually warm day, the air in the guest bedroom feels dense and warm, leading to discomfort during rest periods, creating a sense of unrest for anyone staying over.",
+        "The late-afternoon sunlight has left the guest bedroom feeling stuffy and overheated, making it challenging for guests to relax or sleep comfortably.",
+        "In the evening, the guest bedroom retains warmth from the day's sunlight, creating an environment that feels stifling and requires adjustment for a more comfortable guest experience."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_118",
+    "input": "Turn on the air conditioner in the guest bedroom.",
+    "output": "''' guest_bedroom.air_conditioner.turn_on()'''",
+    "perception": {
+      "contexts": [
+        "Guests arrive and settle into their temporary home away from home, where the air becomes increasingly warm. The anticipation of restful comfort is briefly hindered by the stifling blanket of muggy warmth that only grows more noticeable with each passing moment.",
+        "The gentle murmurs of conversation in the guest bedroom start to wane as attention turns to the heavy, humid atmosphere. The clammy sensation on the skin becomes an unwelcome distraction, prompting an intuitive need for a cleansing breath of cool, crisp air to rekindle ease and relaxation.",
+        "As evening descends, subtle warmth seeps into the guest bedroom, enveloping the space in an inattentive embrace that leaves visitors longing for a brisk breeze to refresh the air and restore the energy sapped by the day's adventures.",
+        "After a day filled with activities, the still, dense air of the guest bedroom becomes an unexpected huddle of invisible discomfort, urging a call for a refreshing change that aligns with the soothing undertones of a restful night's reprieve."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_177",
+    "input": "Set the intensity of the humidifier to 40 in the guest bedroom.",
+    "output": "''' guest_bedroom.humidifier.set_intensity(40)'''",
+    "perception": {
+      "contexts": [
+        "The air in the guest bedroom feels dry, creating an uncomfortable sensation upon the skin and a slight irritation in the throat, suggesting a need for moisture.",
+        "Guests in the bedroom experience a parched atmosphere that's causing a scratchy feeling in their nasal passages and lips, highlighting the necessity for additional humidity.",
+        "A noticeable lack of moisture in the guest room air makes breathing less pleasant and can cause discomfort, indicating a requirement for increased humidity.",
+        "The slight prickliness felt on the skin and the static in the guest bedroom suggests the air is lacking in moisture, creating a need for added humidification."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_403",
+    "input": "Decrease the brightness of the light in the bathroom by 73%.",
+    "output": "''' bathroom.light.set_brightness(10)'''",
+    "perception": {
+      "contexts": [
+        "In the bathroom, a harsh glare reflects off the surfaces, creating an overwhelming sensation that makes it difficult to relax.",
+        "The brightness in the bathroom feels too intense, causing discomfort and eye strain, especially when trying to unwind during evening routines.",
+        "A piercing, overbearing light detracts from the peaceful ambiance sought during a soothing bath or shower.",
+        "The atmosphere in the bathroom resembles a blinding brightness, making it hard to focus on personal grooming tasks without squinting."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_158",
+    "input": "Set the fan speed of the air conditioner to high in the guest bedroom.",
+    "output": "''' guest_bedroom.air_conditioner.set_fan_speed(high)'''",
+    "perception": {
+      "contexts": [
+        "The room feels stuffy, as if the air is still and lacks circulation, making guests feel uncomfortable during their stay."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_236",
+    "input": "Set the heating temperature in the living room to 25 degrees.",
+    "output": "''' living_room.heating.set_temperature(25)'''",
+    "perception": {
+      "contexts": [
+        "As the sun begins its descent, the living room transforms with shadows dancing across the walls, and the air around you feels noticeably cooler than during the warmth of the day.",
+        "Gathered for an evening family movie, the warmth of the room dwindles, causing you to sink deeper into your cozy blanket with a slight chill brushing over exposed skin.",
+        "With windows closed to ward off the outdoor chill, the room's atmosphere now feels almost brisk, starkly contrasting the previous hours of sunshine.",
+        "The fading daylight seeps out through the curtains, replaced by a cooler, more penetrating air that envelops the room, inviting thoughts of warmer climes."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_320",
+    "input": "Set the brightness of the light to 30 in the study room.",
+    "output": "''' study_room.light.set_brightness(30)'''",
+    "perception": {
+      "contexts": [
+        "Prolonged exposure to intense bright light in the study area has left the eyes feeling strained and tired, creating an urge for softer illumination to ease focus during late-night work sessions.",
+        "The multifaceted ambiance needed for evening work projects requires a balance between clarity and comfort, with a daylight radiance becoming too harsh for sustained productivity and reading.",
+        "A task-oriented environment demands adaptive illumination to complement concentration, where the current harshness of the light detracts from a conducive atmosphere for deciphering detailed documents and research materials."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_167",
+    "input": "Set the humidifier in the guest bedroom to auto mode.",
+    "output": "''' guest_bedroom.humidifier.set_mode(auto)'''",
+    "perception": {
+      "contexts": [
+        "The air in the guest bedroom feels dry and parched, leaving guests with an itchy sensation on their skin and throat during the night.",
+        "Guests often wake up with a dry nose or throat, suggesting a lack of moisture in the bedroom air.",
+        "There is a slight musty smell in the guest bedroom, which indicates the air has become stale owing to insufficient humidity during guest stays.",
+        "A sense of discomfort and difficulty breathing is noticeable, as the air feels too dry for restful sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_203",
+    "input": "Increase the brightness of the light in the living room by 23 percent.",
+    "output": "''' living_room.light.set_brightness(40)'''",
+    "perception": {
+      "contexts": [
+        "The living room has become dim as the late afternoon sun starts to fade, making it difficult to comfortably enjoy reading or family conversations.",
+        "As evening approaches, the natural light dwindles, causing shadows to dominate the corners of the living space, signaling a need for increased illumination.",
+        "During a cozy evening gathering, the atmosphere in the living room begins to feel subdued, hinting at the desire for a more vibrant and energetic ambiance."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_514",
+    "input": "Decrease the brightness of the light on the balcony by 63 percent.",
+    "output": "''' balcony.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "The evening sky begins to deepen as the sun sets, casting a warm, orange glow over the balcony. The light becomes too intense for an intimate gathering, creating a need for a softer ambiance.",
+        "As night falls, the vibrant, almost glaring light on the balcony interrupts the intended serene atmosphere, prompting a desire to envelop the space in a more subdued luminescence.",
+        "The daylight fades away, leaving the balcony in shadows, and the existing light blazes forth, harsh and bright, clashing with the soft twilight, encouraging a need to create a calming and gentle environment."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_43",
+    "input": "Set the air conditioner temperature in the master bedroom to 25 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(25)'''",
+    "perception": {
+      "contexts": [
+        "A brisk, cool sensation can be felt as one steps into the master bedroom, especially as the evening settles in, creating the perfect environment for drifting into a peaceful sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_16",
+    "input": "Increase the brightness of the light in the master bedroom by 20%.",
+    "output": "''' master_bedroom.light.set_brightness(70)'''",
+    "perception": {
+      "contexts": [
+        "The room has grown dimmer as evening approaches, making it difficult to read the pages of a book clearly.",
+        "Subtle shadows start to stretch across the walls, creating a cozy but slightly darkened ambiance that might interfere with bedtime preparation activities.",
+        "The soft light from outside begins to fade, resulting in a gentle yet noticeable strain on the eyes as they adjust to the shifting luminosity within.",
+        "The fading glow of the setting sun outside creates a relaxing mood, but you find it slightly challenging to pick out details in the room's décor.",
+        "The once-bright area transforms into a shadowy haven, which feels soothing but may hinder visibility needed for late-night organizing or getting ready for the next day."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_250",
+    "input": "Turn on the fan in the living room.",
+    "output": "''' living_room.fan.turn_on()'''",
+    "perception": {
+      "contexts": [
+        "The air in the living room feels stagnant and warm, making it difficult to relax during the heat of the day.",
+        "A gentle breeze is missing, causing a noticeable heavy stillness as the afternoon sunlight streams through the windows.",
+        "Sitting in the living room, the air feels unmoving and the sensation of warmth lingers on the skin, causing a restless discomfort."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_310",
+    "input": "Increase the intensity of the dehumidifier in the dining room by 70%.",
+    "output": "''' ding_room.dehumidifiers.set_intensity(100)'''",
+    "perception": {
+      "contexts": [
+        "The room feels heavy and clammy, with condensation forming on the windows, creating a sticky sensation that's unpleasant during family meals.",
+        "There is a dampness that starts seeping into the fresh linens on the dining table, making the environment feel uncomfortable and stale just as dinner is about to be served.",
+        "Humidity in the air causes the freshly baked bread to lose its crusty texture quickly, dampening the dining experience and altering the meal's intended taste.",
+        "The presence of lingering odors suggests that moisture is causing scents to stagnate, affecting the overall dining environment with an uninviting atmosphere."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_557",
+    "input": "Set the interval of the aromatherapy device on the balcony to 20 seconds.",
+    "output": "''' balcony.aromatherapy.set_interval(20)'''",
+    "perception": {
+      "contexts": [
+        "As the sun sets, a gentle evening breeze carries the scents of a bustling city mixed with faint floral notes, creating a serene outdoor atmosphere for unwinding.",
+        "The air on the balcony feels slightly stale, with the lingering smells of nearby barbecues and the faint aroma of blooming flowers, inviting a refreshing change.",
+        "A peaceful twilight descends on the balcony, enveloped by a subtle but persistent urban scent, as the day transitions into night with a desire for calming aromas.",
+        "The cool, evening air mingles with the distant chatter from neighboring balconies, as the natural fragrance of blooming plants subtly drifts away, seeking to be replaced by a personalized scent."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_225",
+    "input": "Lower the heating temperature in the living room by 64 degrees.",
+    "output": "''' living_room.heating.set_temperature(19)'''",
+    "perception": {
+      "contexts": [
+        "After hours of lingering inside, the air grows too warm, making the room feel stifling and causing slight perspiration.",
+        "A sudden warmth envelops the space as the sun streams through the windows, making the area feel almost like a greenhouse.",
+        "The lingering warmth of the afternoon sun stretches into the room, leading to a slow onset of discomfort and restlessness.",
+        "Warmth seeps into the room, creating a lazy, soporific environment that invites a longing for cooler air.",
+        "The heat from active electronics and body warmth accumulates, causing a rise in temperature that brings a noticeably clingy sensation to the air."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_621",
+    "input": "Turn off the light in the store room.",
+    "output": "''' store_room.light.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "The store room is dimly illuminated with a flickering light bulb casting unnecessary shadows over the stored items, making the space appear cluttered and adding to an underutilized feel."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_224",
+    "input": "Set the heating temperature in the living room to 19 degrees.",
+    "output": "''' living_room.heating.set_temperature(19)'''",
+    "perception": {
+      "contexts": [
+        "The evening air has settled into the living room, leaving behind a subtle chill that seeps into the corners, making it less inviting as you settle in for a cozy evening together."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_257",
+    "input": "Turn off the air purifiers in the living room.",
+    "output": "''' living_room.air_purifiers.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "An odd scent in the living room becomes noticeable after a cleaning session, yet the air feels overly sterile, suggesting a possible overuse of purification that dampens the natural smell of home.",
+        "While having a family gathering, there's a feeling of over-dryness and a lack of natural air flow, hinting at excessive air filtration operation.",
+        "A draft from a slightly open window brings refreshing outdoor air into the room, making the previously filtered air feel redundant and overly sanitized during quieter moments of relaxation.",
+        "The hum of machines fills the room, overpowering conversation and distracting from moments of quiet enjoyment, indicating the need to return to a more natural ambiance.",
+        "Afternoon sunlight streams through large windows, warming the room naturally, and the air feels over-purified, leading to a preference for a more natural air environment."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_248",
+    "input": "Set the heating mode to heat in the living room.",
+    "output": "''' living_room.heating.set_mode(heat)'''",
+    "perception": {
+      "contexts": [
+        "A sudden chill pervades the living room, making feet cold and prompting an urge to feel warmer and cozy as dusk approaches.",
+        "There's a noticeable drop in warmth, causing discomfort for anyone sitting still while engaging in evening gatherings or watching television.",
+        "The room's air feels crisp and unwelcoming, contrasting sharply with the softer, warmer ambiance of such communal spaces.",
+        "A desire to envelop the space in comforting warmth due to the lack of insulation effect from nearby walls and windows being exposed to the cool evening air."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_61",
+    "input": "Set the fan speed of the air conditioner to medium in the master bedroom.",
+    "output": "''' master_bedroom.air_conditioner.set_fan_speed(medium)'''",
+    "perception": {
+      "contexts": [
+        "A gentle breeze flows through the bedroom, offering relief from the discomfort of still, heavy air that has settled overnight. The desire for a slightly more invigorating atmosphere nudges one towards a lighter, fresher environment that invites restful sleep.",
+        "A feeling of warmth envelops the room, indicating a need for increased air circulation to prevent any restlessness during quiet, undisturbed slumber. The subtle stir in the air enhances the sensation of calm and relaxation.",
+        "The tranquil quietness of the bedroom is punctuated by the soft hum of ambient settings. There's a yearning for an efficient yet understated flow of air, offering an ideal balance between serenity and cooling, to ensure a peaceful sleep environment."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_527",
+    "input": "Set the brightness of the light to 90 on the balcony.",
+    "output": "''' balcony.light.set_brightness(90)'''",
+    "perception": {
+      "contexts": [
+        "The sun has dipped below the horizon, leaving the balcony enveloped in twilight, and reading becomes challenging without additional illumination.",
+        "The soft sounds of evening chirping and the promise of a relaxing night outdoors invite a well-lit setting, enhancing the ambiance and visibility for conversation.",
+        "The gentle coolness of evening air mingling with shadows falling across the balcony suggests a need for more light to continue enjoying the outdoor space.",
+        "The quiet rustle of leaves is accompanied by increasing dimness, hinting at the need to brighten the area for a comfortable outdoor dinner or gathering."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_119",
+    "input": "Turn off the air conditioner in the guest bedroom.",
+    "output": "''' guest_bedroom.air_conditioner.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "The air in the guest bedroom feels frigid and uncomfortably cold with the drastic drop in temperature from the late evening chill, causing guests to pull the blankets tighter to find warmth.",
+        "The clash between cooler indoor air and the natural warmth outside makes it feel unnecessarily cold, leading to discomfort and an urge to readjust to a more natural room temperature."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_622",
+    "input": "Turn on the air purifiers in the store room.",
+    "output": "''' store_room.air_purifiers.turn_on()'''",
+    "perception": {
+      "contexts": [
+        "Dust particles float visibly in the sunlight streaming through a small window, indicating a lack of air circulation in the room.",
+        "There is a lingering musty scent, typical of items stored for long periods, suggesting diminished air freshness.",
+        "An uncomfortable scratchiness in the throat and occasional sneezing suggest the air carries more irritants than usual.",
+        "The enclosed space feels stale and possibly humid, as evidenced by a slight discomfort in breathing.",
+        "Sensitive individuals might notice an itchiness in the eyes or a general feeling of heaviness in the air, pointing to below-optimal air quality."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_258",
+    "input": "Set the air purifiers in the living room to auto mode.",
+    "output": "''' living_room.air_purifiers.set_mode(auto)'''",
+    "perception": {
+      "contexts": [
+        "After a busy day with guests coming and going, it feels necessary to refresh the living room's atmosphere to maintain a clean and inviting environment.",
+        "There is a noticeable shift in air freshness as multiple activities in the living room leave behind assorted smells and particles.",
+        "The room has a slight stuffiness now, even as the day's gatherings wind down and evening approaches, hinting at a need for better air circulation and cleanliness.",
+        "With the variety of activities happening throughout the day, the living room's air begins to feel a bit strained, suggesting it could benefit from a more consistent purification."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_117",
+    "input": "Increase the brightness of the light in the guest bedroom by 72 percent.",
+    "output": "''' guest_bedroom.light.set_brightness(100)'''",
+    "perception": {
+      "contexts": [
+        "As evening descends, shadows deepen in the guest bedroom, making it harder to navigate or find items comfortably.",
+        "During nighttime activities, the soft glow proves insufficient for reading or engaging in detailed tasks, leading to a desire for more illumination."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_290",
+    "input": "Turn off the dehumidifier in the dining room.",
+    "output": "''' ding_room.dehumidifiers.set_intensity(0)'''",
+    "perception": {
+      "contexts": [
+        "The air in the dining room has become crisp and dry during mealtimes, leading to a feeling of parchedness and discomfort while dining."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_116",
+    "input": "Set the brightness of the light to 100 in the guest bedroom.",
+    "output": "''' guest_bedroom.light.set_brightness(100)'''",
+    "perception": {
+      "contexts": [
+        "As evening descends, the once bright room now fades into shadow, making it challenging for your guests to read or engage in their evening routines comfortably.",
+        "The soft, ambient glow in the room feels inadequate for guests who have gathered to share stories and laughter, leading to a desire for more vibrant illumination.",
+        "With the onset of night, the guests find the room's atmosphere to be dim, which encourages a craving for a lively and welcoming brightness to foster conversation and relaxation."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_123",
+    "input": "Lower the air conditioner temperature in the guest bedroom by 4 degrees.",
+    "output": "''' guest_bedroom.air_conditioner.set_temperature(17)'''",
+    "perception": {
+      "contexts": [
+        "The guest bedroom feels unusually warm for a space meant to accommodate visitors, with a subtle edge in the air that makes it less inviting for relaxation and restful sleep.",
+        "An afternoon sun bathes the room, creeping in through the window and turning it into a heat box, causing a subtle discomfort that hangs in the background.",
+        "A faint sense of warmth lingers, creating an atmosphere that hints at more heat retained than what is ideal for a temporary, tranquil retreat."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_232",
+    "input": "Set the heating temperature in the living room to 23 degrees.",
+    "output": "''' living_room.heating.set_temperature(23)'''",
+    "perception": {
+      "contexts": [
+        "A stark chill seeps into the living room as the setting sun casts long shadows, and the thinning warmth of the late afternoon begins to surrender to the coolness of early evening.",
+        "The living room's air feels cooler and emptier as family members settle in for movie night, wishing for a cozy embrace rather than the crisp draft breezing through.",
+        "With the shift from afternoon to evening, a faint, creeping cold begins to inhabit the corners of the living room, urging occupants to seek the solace of gentle warmth."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_92",
+    "input": "Set the intensity of the humidifier to 100% in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(100)'''",
+    "perception": {
+      "contexts": [
+        "The air feels parched and uncomfortable, with a prevailing dryness that disrupts the restful ambiance desired for the night.",
+        "Soft murmurs of fabric brushing against dry skin hint at an environment where moisture is notably lacking, preventing any sense of ease as night approaches.",
+        "As sleep beckons, an underlying aridity in the air makes it difficult to breathe comfortably, suggesting a need for immediate moisture infusion.",
+        "With each breath, a subtle irritation hints at the dryness permeating the air, causing restless shifts in a space meant for tranquility and rejuvenation.",
+        "The gentle hum from outside contrasts sharply with the still, dry air within, making every exhalation feel less refreshing and more stressed."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_0",
+    "input": "Turn on the light in the master bedroom.",
+    "output": "''' master_bedroom.light.turn_on()'''",
+    "perception": {
+      "contexts": [
+        "In the master bedroom, as the sun fades beyond the horizon, the space becomes engulfed in gentle shadows, creating a tranquil yet slightly dim atmosphere, prompting a need for added illumination for evening relaxation."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_209",
+    "input": "Increase the brightness of the light in the living room by 53 percent.",
+    "output": "''' living_room.light.set_brightness(70)'''",
+    "perception": {
+      "contexts": [
+        "As the afternoon light wanes, the room becomes shadowed and less vibrant, creating an atmosphere not quite conducive to reading or engaging in conversation.",
+        "The setting sun casts elongated shadows in the room, leaving it nestled in a dimness that feels a bit too relaxed for the evening’s anticipated family gathering.",
+        "Under the subdued light, even simple activities like finding a misplaced book or remote control seem more cumbersome, highlighting a need for clearer visibility.",
+        "With overcast skies outside, the mood inside seems muted, reducing the room's usual vibrant energy, which is preferable for the mix of evening activities ahead."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_40",
+    "input": "Decrease the air conditioner temperature in the master bedroom by 4 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(23)'''",
+    "perception": {
+      "contexts": [
+        "The air in the master bedroom feels heavy and warm against the skin, even under the comforter, causing discomfort and restlessness as you try to find a cool spot to sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_201",
+    "input": "Increase the brightness of the light in the living room by 13 percent.",
+    "output": "''' living_room.light.set_brightness(30)'''",
+    "perception": {
+      "contexts": [
+        "As daylight wanes, the room begins to fill with long shadows, rendering it difficult to carry out evening activities comfortably without straining the eyes.",
+        "The sky outside has cloaked itself in deepening hues, leaving the room feeling like a cave, lacking the light needed to maintain a lively and engaging atmosphere.",
+        "With dusk settling in, the visibility in the room has diminished, prompting a need for more illumination to preserve a warm and inviting environment.",
+        "At this hour, the soft glow from outside light fades away, leaving the room requiring a boost in brightness to support reading or conversation without discomfort.",
+        "The natural light dims significantly, creating an ambiance that feels more suitable for nighttime relaxation rather than vibrant discussions or detailed tasks."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_200",
+    "input": "Set the brightness of the light in the living room to 30.",
+    "output": "''' living_room.light.set_brightness(30)'''",
+    "perception": {
+      "contexts": [
+        "As daylight fades with the approaching evening, the living room takes on a dim ambiance unsuitable for reading or engaging with family activities.",
+        "The soft glow from outside is unable to illuminate corners of the room where evening relaxation or social gatherings unfold, creating an under-lit environment.",
+        "An overcast sky outside results in muted natural light filtering into the room, insufficient for completing detail-oriented tasks.",
+        "The muted surroundings in the living room during twilight make it challenging to see clearly for those seeking a cozy evening atmosphere."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_417",
+    "input": "Decrease the brightness of the light in the bathroom by 3 percent.",
+    "output": "''' bathroom.light.set_brightness(80)'''",
+    "perception": {
+      "contexts": [
+        "The late-night preparation to wind down the day in the bathroom is hindered by overly harsh and glaring light, disrupting the intention of creating a soothing atmosphere conducive to relaxation before sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_211",
+    "input": "Increase the brightness of the light in the living room by 63 percent.",
+    "output": "''' living_room.light.set_brightness(80)'''",
+    "perception": {
+      "contexts": [
+        "As the afternoon sun begins to dip closer to the horizon, the natural light streaming into the living room diminishes, making the room appear dimmer and less inviting for activities such as reading or interacting with family.",
+        "The overcast skies outside have cast a shadow across the living room, prompting a sense of gloominess and reducing the vibrancy of the room's décor.",
+        "The transition from daylight to evening leaves the corners of the living room shrouded in shadow, creating a cozy yet insufficiently lit environment for engaging in evening discussions or hobbies.",
+        "With curtains drawn to keep out the chilly breeze, the room becomes increasingly reliant on artificial light as the primary source of illumination, which now seems too muted for group gatherings."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_242",
+    "input": "Set the heating temperature in the living room to 28 degrees.",
+    "output": "''' living_room.heating.set_temperature(28)'''",
+    "perception": {
+      "contexts": [
+        "As the sun sets and the evening chill begins to creep into the room, the air takes on a distinct coolness, making it less inviting for relaxed conversation or quiet moments on the couch.",
+        "A late afternoon breeze has left the room feeling slightly too brisk, causing a gentle shiver as one tries to unwind and relish in an evening of entertainment or leisure.",
+        "The transition from day to night brings with it a noticeable drop in warmth, leaving you grasping for a cozier environment to fend off the cool drafts that hint at the need for extra warmth during evening gatherings."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_623",
+    "input": "Turn off the air purifiers in the store room.",
+    "output": "''' store_room.air_purifiers.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "Entering the storage room, a musty and stagnant atmosphere hangs heavy in the air, distinct from the rest of the house's open spaces.",
+        "The storeroom's stale and close air suggests infrequent visits and ventilation adjustments."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_624",
+    "input": "Set the air purifiers in the store room to auto mode.",
+    "output": "''' store_room.air_purifiers.set_mode(auto)'''",
+    "perception": {
+      "contexts": [
+        "The store room feels stuffy and the air is noticeably stale, lacking freshness and circulation.",
+        "A faint musty smell surrounds the stored items, creating an uncomfortable environment for retrieving things.",
+        "The air is thick, suggesting the need for better ventilation and a more invigorating indoor atmosphere."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_534",
+    "input": "Turn the aromatherapy intensity down by 16% on the balcony.",
+    "output": "''' balcony.aromatherapy.set_intensity(0)'''",
+    "perception": {
+      "contexts": [
+        "A gentle breeze on the balcony carries a heavy scent, intensifying with each passing moment, creating an overwhelming aromatic environment that makes it difficult to enjoy the tranquil space."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_583",
+    "input": "Set the brightness of the light in the garage to 70.",
+    "output": "''' garage.light.set_brightness(70)'''",
+    "perception": {
+      "contexts": [
+        "Upon entering the garage, the shadows seem to engulf the space, making it challenging to navigate or engage in tasks comfortably. The dim environment lacks the necessary clarity, especially during activities that require focus or precision."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_635",
+    "input": "Set the dehumidifiers in the store room to sleep mode.",
+    "output": "''' store_room.dehumidifiers.set_mode(sleep)'''",
+    "perception": {
+      "contexts": [
+        "Upon entering the store room, a musty and damp sensation lingers in the air, creating discomfort and a pressing need for fresher conditions."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_495",
+    "input": "Set the intensity of the aromatherapy in the corridor to 50.",
+    "output": "''' corridor.aromatherapy.set_intensity(50)'''",
+    "perception": {
+      "contexts": [
+        "The faint lingering scent in the corridor has become almost imperceptible, leaving the air feeling neutral and lacking its usual aromatic warmth.",
+        "After a long day, the corridor's atmosphere seems bland and lifeless, missing the familiar, inviting fragrance that usually greets you upon entering.",
+        "As footsteps echo quietly in the hallway, the absence of the subtle, calming aroma leaves the space feeling unusually sterile and uninviting."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_418",
+    "input": "Set the brightness of the light in the bathroom to 90.",
+    "output": "''' bathroom.light.set_brightness(90)'''",
+    "perception": {
+      "contexts": [
+        "The bathroom's mirror reflects dim shadows, making it challenging to see details while grooming or applying makeup, suggesting that more illumination is needed for better visibility.",
+        "During early morning routines, the soft ambient light in the bathroom struggles to cut through the misty haze, causing squinting and straining the eyes while getting ready.",
+        "The sun has begun to set, casting a gentle, subdued glow that does not adequately illuminate the bathroom, leading to difficulties in clearly defining the space.",
+        "The current lighting in the bathroom creates a mood that feels too relaxed and low-energy when there is a need for greater focus and alertness during personal care tasks.",
+        "The bathroom's shadows feel elongated and encroaching, hindering the completion of precise tasks like shaving or hair styling, suggesting a brighter environment is necessary."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_8",
+    "input": "Set the brightness of the light in the master bedroom to 30.",
+    "output": "''' master_bedroom.light.set_brightness(30)'''",
+    "perception": {
+      "contexts": [
+        "The room slowly darkens as the sun sets, casting shadows across the furniture and making it difficult to see clearly.",
+        "The soft glow of the golden hour fades, leaving the room dim and the details in the space less visible for evening preparation.",
+        "The natural light wanes, creating a dusky atmosphere that makes reading or carrying out tasks strain the eyes in the fading evening light.",
+        "The shadows deepen as twilight approaches, making it challenging to navigate the room without additional illumination."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_626",
+    "input": "Set the fan speed of the air purifiers to auto in the store room.",
+    "output": "''' store_room.air_purifiers.set_fan_speed(auto)'''",
+    "perception": {
+      "contexts": [
+        "Upon stepping into the storage area, the air feels stale and heavy, lacking the crisp freshness enjoyed in the living spaces. This ambient quality suggests the need for automatic moderation to ensure the air remains just as revitalized as the rest of the home."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_377",
+    "input": "Decrease the brightness of the light in the kitchen by 3 percent.",
+    "output": "''' kitchen.light.set_brightness(10)'''",
+    "perception": {
+      "contexts": [
+        "The kitchen is filled with intense brightness that creates a sharp glare on the countertops, making it difficult to comfortably focus while preparing food.",
+        "The midday sunlight streaming through the kitchen windows combined with maximized overhead lighting makes the room appear overly radiant, creating a harsh reflection on shiny surfaces.",
+        "Eyes squint in reaction to the stark light during an intimate cooking session, making it uncomfortable to read recipe instructions or perform precise cutting tasks on the chopping board."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_76",
+    "input": "Set the intensity of the humidifier to 20 in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(20)'''",
+    "perception": {
+      "contexts": [
+        "The air in the bedroom feels unusually dry, causing discomfort to the skin and throat and hinting at a need for more moisture in the space for a restful sleep."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_259",
+    "input": "Set the air purifiers in the living room to sleep mode.",
+    "output": "''' living_room.air_purifiers.set_mode(sleep)'''",
+    "perception": {
+      "contexts": [
+        "The living room becomes a haven for relaxation after a bustling day of diverse activities, necessitating an environment that is serene and conducive to unwinding, with air that feels gentle and rests lightly as the evening draws near."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_429",
+    "input": "Decrease the intensity of the aromatherapy in the foyer by 58%.",
+    "output": "''' foyer.aromatherapy.set_intensity(10)'''",
+    "perception": {
+      "contexts": [
+        "Upon entering the foyer, the scent becomes overwhelming, making it difficult to distinguish the subtle fragrances meant to greet guests warmly.",
+        "The lingering aroma in the entranceway seems to overpower instead of soothing, causing an unexpected discomfort to those who pass through.",
+        "Guests stepping into the foyer comment on the fragrance that seems to overshadow rather than gently welcome, indicating an overpowering presence."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_100",
+    "input": "Adjust the brightness of the light in the guest bedroom to 20.",
+    "output": "''' guest_bedroom.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "The room subtly transitions to evening as daylight fades, making it challenging to see clearly during nighttime activities.",
+        "Guests experience difficulty discerning colors and details while preparing for bedtime, indicating dimness in the room.",
+        "Shadows cast by surrounding furniture increase as the overhead glow lessens, suggesting the need for additional clarity.",
+        "The relaxed dinner conversation progresses but the ambiance shifts darker, signaling an instinctive turn towards more illumination."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_245",
+    "input": "Lower the heating temperature in the living room by 54 degrees.",
+    "output": "''' living_room.heating.set_temperature(29)'''",
+    "perception": {
+      "contexts": [
+        "In the living room, the warmth has reached a level that feels stifling, causing an almost immediate need to shed layers of clothing. The air presses heavily, resembling a sunny afternoon, even though the sunlight outside has dwindled, creating a contrast with the internal heat.",
+        "The air in the living room has become overwhelmingly warm, to the point that perspiration begins to bead on the forehead as soon as you settle onto the couch. These conditions feel more suited for a summer's day than an evening indoors, invoking a compelling urge for relief.",
+        "A sensation of dry heat envelops the room, reminiscent of standing too close to a roaring fireplace, making it uncomfortable to relax or spend time in this space. The intensity of the warmth lingers, affecting both focus and comfort."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_148",
+    "input": "Increase the air conditioner temperature in the guest bedroom by 9 degrees.",
+    "output": "''' guest_bedroom.air_conditioner.set_temperature(30)'''",
+    "perception": {
+      "contexts": [
+        "The air in the guest bedroom feels colder than usual, leading to shivers and the need for warmth during a nighttime visit."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_303",
+    "input": "Set the intensity of the dehumidifiers to 70 in the dining room.",
+    "output": "''' ding_room.dehumidifiers.set_intensity(70)'''",
+    "perception": {
+      "contexts": [
+        "The air feels dense and slightly damp, as if the atmosphere itself holds onto the previous evening's humidity, making it challenging to enjoy a light meal.",
+        "A subtle sheen of condensation appears on glass surfaces after a busy day of meal preparations, indicating the room's need for a fresher, drier feel.",
+        "Despite having cleared the table, there’s a lingering sensation of the air being heavy and uncomfortable, as if the very essence of the meal still clings to the surroundings."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_231",
+    "input": "Lower the heating temperature in the living room by 61 degrees.",
+    "output": "''' living_room.heating.set_temperature(22)'''",
+    "perception": {
+      "contexts": [
+        "The living room feels too warm for comfort, and a desire for a cooler, more refreshing space becomes evident, especially after an active day.",
+        "As the evening sets in, the warmth in the living room makes the air feel a touch heavier, provoking a need for a lighter atmosphere.",
+        "The combination of sunlight streaming in and ongoing activities causes the living room to become noticeably hotter, prompting a longing for a cooler environment."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_533",
+    "input": "Turn off the aromatherapy device in the balcony.",
+    "output": "''' balcony.aromatherapy.set_intensity(0)'''",
+    "perception": {
+      "contexts": [
+        "A gentle, soothing scent has begun to overwhelm the outdoor air, mingling with the natural aromas of fresh plants and flowers, and creating an overly perfumed experience while enjoying the quiet retreat of the balcony."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_327",
+    "input": "Decrease the brightness of the light in the study room by 1 percent.",
+    "output": "''' study_room.light.set_brightness(60)'''",
+    "perception": {
+      "contexts": [
+        "The room is bathed in an intense glare, making it hard to focus on reading or studying for extended periods without discomfort.",
+        "Harsh overhead light creates a strained atmosphere, disrupting concentration and making it difficult to maintain a serene work environment.",
+        "The lights are currently overwhelming, impacting the ability to work on the computer or paperwork comfortably, leading to eye strain."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_50",
+    "input": "Set the air conditioner temperature to 29 degrees in the master bedroom.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(29)'''",
+    "perception": {
+      "contexts": [
+        "As the sun settles down for the evening, a warm blanket of air envelops the master bedroom, causing a slight perspiration to form and a desire for restful sleep begins to take precedence.",
+        "The sensation of warm air gently wafting over the skin builds as bedtime approaches, with the need for refreshingly cool air to assist in drifting into a peaceful night's slumber becoming apparent."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_62",
+    "input": "Set the fan speed of the air conditioner to high in the master bedroom.",
+    "output": "''' master_bedroom.air_conditioner.set_fan_speed(high)'''",
+    "perception": {
+      "contexts": [
+        "After a hot day, the air feels unusually still, making it difficult to drift into a restful sleep.",
+        "The oppressive warmth in the room clings to everything, from the sheets to the slightest movement.",
+        "The gentle hum of the equipment seems insufficient to cut through the heavy stillness that's settled over the room.",
+        "A sense of stifling warmth envelops, making the prospect of a comfortable night's sleep elusive unless alleviated.",
+        "The air hangs dense and unmoving, almost reluctant to circulate, leaving a slight sheen of moisture on the skin."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_134",
+    "input": "Increase the air conditioner temperature in the guest bedroom by 2 degrees.",
+    "output": "''' guest_bedroom.air_conditioner.set_temperature(23)'''",
+    "perception": {
+      "contexts": [
+        "The guest bedroom has become uncomfortably cool for someone who is accustomed to a slightly warmer sleeping environment, perhaps leaving a guest feeling chilly beneath the blankets."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_405",
+    "input": "Decrease the brightness of the light in the bathroom by 63%.",
+    "output": "''' bathroom.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "The harsh glare from the bathroom light creates an uncomfortable, almost blinding sensation, overwhelming the eyes and making it difficult to relax in the space.",
+        "The current brightness in the bathroom makes a simple visit feel intense and stark, contrasting sharply with the softer, ambient evening lighting throughout the rest of the home.",
+        "An attempt to unwind with a relaxing bath is disrupted by lights that emit an unnecessarily bright, almost clinical luminescence, contrasting the desired serene atmosphere."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_194",
+    "input": "Set the brightness of the light to 0 in the living room.",
+    "output": "''' living_room.light.set_brightness(0)'''",
+    "perception": {
+      "contexts": [
+        "As evening settles in, the living room's glow becomes unnecessary with the creeping darkness outside. The room's ambience shifts naturally toward serenity as the household members congregate for a relaxing evening.",
+        "Gathered in front of the soft flicker of the television, the need for additional brightness fades away, allowing for a more immersive viewing experience without the distraction of harsh lights."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_270",
+    "input": "Set the brightness of the light to 20 in the dining room.",
+    "output": "''' ding_room.light.set_brightness(20)'''",
+    "perception": {
+      "contexts": [
+        "The evening meal commences as the sun sinks below the horizon, casting shadows that obscure the dinner table.",
+        "During family gatherings in the dining room, dim surroundings cause once-colorful dishes to appear muted and uninviting.",
+        "Guests strain their eyes to see each other's expressions under the soft glow of inadequate lighting during mealtime conversations.",
+        "The vibrant colors of the meals are dulled by insufficient light, impacting the inviting atmosphere of the dining area.",
+        "The ambiance feels lacking as twilight transition leaves the dining space enveloped in a lackluster haze."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_261",
+    "input": "Turn off the dehumidifiers in the living room.",
+    "output": "''' living_room.dehumidifiers.turn_off()'''",
+    "perception": {
+      "contexts": [
+        "The air in the living room feels excessively dry, causing discomfort and a scratchy throat during family movie night.",
+        "The room's atmosphere seems overly crisp, leaving skin feeling tight and parched after an evening spent reading.",
+        "A sudden static electricity shock when reaching for the door handle indicates the air lacks moisture on a quiet night in."
+      ]
+    }
+  },
+  {
+    "id": "home40_one_391",
+    "input": "Increase the brightness of the light in the kitchen by 67 percent.",
+    "output": "''' kitchen.light.set_brightness(80)'''",
+    "perception": {
+      "contexts": [
+        "Shadows stretch across the countertop as the late afternoon sun starts to dip, making it harder to see the ingredients clearly during meal prep.",
+        "The room feels dim and uninviting, casting a subdued glow over the chopping board that seems to slow down cooking tasks.",
+        "A gathering of family members begins to fill the kitchen, and the ambient light seems insufficient to match the lively energy and conversation spilling into the space.",
+        "As various colors and textures of ingredients pop less vibrantly under the current lighting, the desire for an invigorating and lively cooking environment grows stronger.",
+        "The existing gentle luminescence clashes with the high-spirited activity of preparing a rich and flavorful dish, suggesting a need for sharper illumination."
+      ]
+    }
+  }
+]

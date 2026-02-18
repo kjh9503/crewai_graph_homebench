@@ -1,0 +1,13 @@
+{
+    "id": "home40_one_582",
+    "input": "Decrease the brightness of the light in the garage by 23 percent.",
+    "output": "''' garage.light.set_brightness(60)'''",
+    "perception": {
+        "contexts": [
+            "The glare from the overhead light is too intense against the hobby workbench, casting sharp shadows that make it difficult to see delicate details.",
+            "After sundown, the ambient light in the garage becomes overwhelming, creating a harsh contrast with the softer light spilling in from the evening sky.",
+            "During evening hours, the current brightness strains the eyes when transitioning to or from adjacent darker areas.",
+            "The evening wind-down routine makes the bright light feel intrusive, disturbing the calm atmosphere desired during quieter activities."
+        ]
+    }
+}

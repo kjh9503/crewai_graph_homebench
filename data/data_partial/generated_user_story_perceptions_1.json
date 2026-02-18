@@ -1,0 +1,12 @@
+{
+    "id": "home40_one_74",
+    "input": "Set the intensity of the humidifier to 10 in the master bedroom.",
+    "output": "''' master_bedroom.humidifier.set_intensity(10)'''",
+    "perception": {
+        "contexts": [
+            "The atmosphere in the master bedroom has become noticeably dry, causing a scratchy sensation in the throat and making breathing uncomfortable during the night.",
+            "Lying in bed, you feel the air around you is arid and lacking moisture, leading to skin feeling tight and parched.",
+            "The evening brings a cooling breeze, but the indoor air lacks sufficient humidity, causing a discomforting dryness that disrupts restful sleep."
+        ]
+    }
+}

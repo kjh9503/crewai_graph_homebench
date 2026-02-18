@@ -1,0 +1,13 @@
+{
+    "id": "home40_one_4",
+    "input": "Set the brightness of the light to 10 in the master bedroom.",
+    "output": "''' master_bedroom.light.set_brightness(10)'''",
+    "perception": {
+        "contexts": [
+            "As evening descends, the room transforms into a relaxing retreat; however, the dimness begins to invite drowsiness prematurely, making it difficult to remain active or engage in any late-night reading.",
+            "The coziness of the room has become tinged with a sense of drowsiness as the natural light fades, causing some difficulty in distinguishing objects clearly and making it a challenge to navigate comfortably.",
+            "Warm shadows slowly envelop the space, creating a tranquil yet somber atmosphere that whispers an invitation to unwind but diminishes the energy needed for nighttime activities.",
+            "The evening ambiance wraps the room in a soft and muted tone, but the lack of sufficient illumination makes it hard to stay awake or accomplish tasks that require focus and clarity."
+        ]
+    }
+}

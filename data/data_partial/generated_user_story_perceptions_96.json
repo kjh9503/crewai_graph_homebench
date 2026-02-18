@@ -1,0 +1,11 @@
+{
+    "id": "home40_one_194",
+    "input": "Set the brightness of the light to 0 in the living room.",
+    "output": "''' living_room.light.set_brightness(0)'''",
+    "perception": {
+        "contexts": [
+            "As evening settles in, the living room's glow becomes unnecessary with the creeping darkness outside. The room's ambience shifts naturally toward serenity as the household members congregate for a relaxing evening.",
+            "Gathered in front of the soft flicker of the television, the need for additional brightness fades away, allowing for a more immersive viewing experience without the distraction of harsh lights."
+        ]
+    }
+}

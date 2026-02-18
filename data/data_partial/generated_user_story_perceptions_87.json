@@ -1,0 +1,1 @@
+{"id": "home40_one_148", "input": "Increase the air conditioner temperature in the guest bedroom by 9 degrees.", "output": "''' guest_bedroom.air_conditioner.set_temperature(30)'''", "perception": {"contexts": ["The air in the guest bedroom feels colder than usual, leading to shivers and the need for warmth during a nighttime visit."]}}

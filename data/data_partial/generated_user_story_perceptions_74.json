@@ -1,0 +1,1 @@
+{"id": "home40_one_534", "input": "Turn the aromatherapy intensity down by 16% on the balcony.", "output": "''' balcony.aromatherapy.set_intensity(0)'''", "perception": {"contexts": ["A gentle breeze on the balcony carries a heavy scent, intensifying with each passing moment, creating an overwhelming aromatic environment that makes it difficult to enjoy the tranquil space."]}}

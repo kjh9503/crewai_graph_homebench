@@ -1,0 +1,1 @@
+{"id": "home40_one_290", "input": "Turn off the dehumidifier in the dining room.", "output": "''' ding_room.dehumidifiers.set_intensity(0)'''", "perception": {"contexts": ["The air in the dining room has become crisp and dry during mealtimes, leading to a feeling of parchedness and discomfort while dining."]}}

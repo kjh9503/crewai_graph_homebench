@@ -1,0 +1,1 @@
+{"id": "home40_one_400", "input": "Turn off the lights in the bathroom.", "output": "''' bathroom.light.set_brightness(0)'''", "perception": {"contexts": ["Soft beams of light filter through as the house settles into evening, yet the bathroom remains brightly lit, creating an unwelcoming glare that disrupts the otherwise calming ambiance of the home."]}}

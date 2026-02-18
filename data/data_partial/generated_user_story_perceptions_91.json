@@ -1,0 +1,12 @@
+{
+    "id": "home40_one_327",
+    "input": "Decrease the brightness of the light in the study room by 1 percent.",
+    "output": "''' study_room.light.set_brightness(60)'''",
+    "perception": {
+        "contexts": [
+            "The room is bathed in an intense glare, making it hard to focus on reading or studying for extended periods without discomfort.",
+            "Harsh overhead light creates a strained atmosphere, disrupting concentration and making it difficult to maintain a serene work environment.",
+            "The lights are currently overwhelming, impacting the ability to work on the computer or paperwork comfortably, leading to eye strain."
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+{"id": "home40_one_269", "input": "Decrease the brightness of the light in the dining room by 73 percent.", "output": "''' ding_room.light.set_brightness(10)'''", "perception": {"contexts": ["The dining room is too brightly lit for your evening dinner, making it hard to enjoy a cozy and relaxed meal experience."]}}

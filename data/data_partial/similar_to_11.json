@@ -1,0 +1,66 @@
+{
+  "target_qnum": 11,
+  "target_input": "Set the heating temperature in the living room to 18 degrees.",
+  "top_similar": [
+    {
+      "rank": 1,
+      "qnum": 50,
+      "similarity": 0.997786283493042,
+      "input": "Set the heating temperature in the living room to 19 degrees."
+    },
+    {
+      "rank": 2,
+      "qnum": 62,
+      "similarity": 0.996005654335022,
+      "input": "Set the heating temperature in the living room to 23 degrees."
+    },
+    {
+      "rank": 3,
+      "qnum": 71,
+      "similarity": 0.9956242442131042,
+      "input": "Set the heating temperature in the living room to 28 degrees."
+    },
+    {
+      "rank": 4,
+      "qnum": 38,
+      "similarity": 0.9955621361732483,
+      "input": "Set the heating temperature in the living room to 25 degrees."
+    },
+    {
+      "rank": 5,
+      "qnum": 48,
+      "similarity": 0.9623099565505981,
+      "input": "Lower the heating temperature in the living room by 64 degrees."
+    },
+    {
+      "rank": 6,
+      "qnum": 18,
+      "similarity": 0.9618309140205383,
+      "input": "Lower the heating temperature in the living room by 57 degrees."
+    },
+    {
+      "rank": 7,
+      "qnum": 86,
+      "similarity": 0.9618273377418518,
+      "input": "Lower the heating temperature in the living room by 54 degrees."
+    },
+    {
+      "rank": 8,
+      "qnum": 89,
+      "similarity": 0.9616780281066895,
+      "input": "Lower the heating temperature in the living room by 61 degrees."
+    },
+    {
+      "rank": 9,
+      "qnum": 15,
+      "similarity": 0.953377902507782,
+      "input": "Set the air conditioner temperature in the master bedroom to 17 degrees."
+    },
+    {
+      "rank": 10,
+      "qnum": 22,
+      "similarity": 0.9532973766326904,
+      "input": "Set the air conditioner temperature in the master bedroom to 19 degrees."
+    }
+  ]
+}

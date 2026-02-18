@@ -1,0 +1,13 @@
+{
+    "id": "home40_one_211",
+    "input": "Increase the brightness of the light in the living room by 63 percent.",
+    "output": "''' living_room.light.set_brightness(80)'''",
+    "perception": {
+        "contexts": [
+            "As the afternoon sun begins to dip closer to the horizon, the natural light streaming into the living room diminishes, making the room appear dimmer and less inviting for activities such as reading or interacting with family.",
+            "The overcast skies outside have cast a shadow across the living room, prompting a sense of gloominess and reducing the vibrancy of the room's d\u00e9cor.",
+            "The transition from daylight to evening leaves the corners of the living room shrouded in shadow, creating a cozy yet insufficiently lit environment for engaging in evening discussions or hobbies.",
+            "With curtains drawn to keep out the chilly breeze, the room becomes increasingly reliant on artificial light as the primary source of illumination, which now seems too muted for group gatherings."
+        ]
+    }
+}

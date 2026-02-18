@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "num": 1,
+      "gold": "Set the intensity of the humidifier to 10 in the master bedroom.",
+      "prediction": "Turn on the humidifier in the master bedroom.",
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "num": 2,
+      "gold": "Set the brightness of the light to 10 in the master bedroom.",
+      "prediction": "Dim the light in the bedroom to 60 percent.",
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715
+    },
+    {
+      "num": 3,
+      "gold": "Set the brightness of the light to 80 in the study room.",
+      "prediction": "Dim the light in the study room to medium intensity.",
+      "precision": 0.7,
+      "recall": 0.5833333333333334,
+      "f1": 0.6363636363636365
+    },
+    {
+      "num": 4,
+      "gold": "Decrease the brightness of the light in the garage by 23 percent.",
+      "prediction": "Dim the light in the garage to 60 percent.",
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715
+    },
+    {
+      "num": 5,
+      "gold": "Lower the air conditioner temperature in the master bedroom by 10 degrees.",
+      "prediction": "Set the temperature of the air conditioner in the bedroom to 65 degrees.",
+      "precision": 0.6153846153846154,
+      "recall": 0.6666666666666666,
+      "f1": 0.64
+    },
+    {
+      "num": 6,
+      "gold": "Set the brightness of the light to 40% in the dining room.",
+      "prediction": "Dim the light in the dining room to 60 percent.",
+      "precision": 0.7,
+      "recall": 0.5833333333333334,
+      "f1": 0.6363636363636365
+    },
+    {
+      "num": 7,
+      "gold": "Turn off the light in the garage.",
+      "prediction": "Dim the light in the garage to 60 percent.",
+      "precision": 0.5555555555555556,
+      "recall": 0.7142857142857143,
+      "f1": 0.6250000000000001
+    },
+    {
+      "num": 8,
+      "gold": "Reduce the brightness of the light in the master bedroom by 50%.",
+      "prediction": "Dim the light in the bedroom to 60 percent.",
+      "precision": 0.5555555555555556,
+      "recall": 0.4166666666666667,
+      "f1": 0.4761904761904762
+    },
+    {
+      "num": 9,
+      "gold": "Set the intensity of the aromatherapy device to 10 on the balcony.",
+      "prediction": "Use the aromatherapy diffuser in the balcony at medium intensity.",
+      "precision": 0.5,
+      "recall": 0.4166666666666667,
+      "f1": 0.45454545454545453
+    },
+    {
+      "num": 10,
+      "gold": "Increase the intensity of the dehumidifier in the study room to 40%.",
+      "prediction": "Increase the airflow of the ventilation system in the study room to high intensity.",
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307692
+    },
+    {
+      "num": 12,
+      "gold": "Set the brightness of the light to 20 in the living room.",
+      "prediction": "Brighten the light in the living room to the highest intensity.",
+      "precision": 0.7272727272727273,
+      "recall": 0.6666666666666666,
+      "f1": 0.6956521739130435
+    },
+    {
+      "num": 13,
+      "gold": "Decrease the brightness of the light in the garage by 43%.",
+      "prediction": "Dim the light in the garage to 50 percent.",
+      "precision": 0.5555555555555556,
+      "recall": 0.45454545454545453,
+      "f1": 0.5
+    },
+    {
+      "num": 14,
+      "gold": "Increase the brightness of the light in the kitchen by 77 percent.",
+      "prediction": "Brighten the light in the kitchen to high intensity.",
+      "precision": 0.5555555555555556,
+      "recall": 0.4166666666666667,
+      "f1": 0.4761904761904762
+    },
+    {
+      "num": 16,
+      "gold": "Increase the brightness of the light in the kitchen by 7%.",
+      "prediction": "Brighten the light in the kitchen to high intensity.",
+      "precision": 0.5555555555555556,
+      "recall": 0.45454545454545453,
+      "f1": 0.5
+    },
+    {
+      "num": 17,
+      "gold": "Decrease the brightness of the light on the balcony by 33%.",
+      "prediction": "Dim the light in the balcony to a lower intensity level for evening relaxation.",
+      "precision": 0.2857142857142857,
+      "recall": 0.36363636363636365,
+      "f1": 0.32
+    },
+    {
+      "num": 19,
+      "gold": "Turn on the light in the balcony.",
+      "prediction": "Increase the brightness of the light in the balcony to high intensity.",
+      "precision": 0.4166666666666667,
+      "recall": 0.7142857142857143,
+      "f1": 0.5263157894736842
+    },
+    {
+      "num": 21,
+      "gold": "Set the air conditioner in the master bedroom to swing in the middle position.",
+      "prediction": "Turn on the humidifier in the master bedroom.",
+      "precision": 0.625,
+      "recall": 0.35714285714285715,
+      "f1": 0.45454545454545453
+    },
+    {
+      "num": 22,
+      "gold": "Set the air conditioner temperature in the master bedroom to 19 degrees.",
+      "prediction": "Set the temperature of the air conditioner in the master bedroom to 68 degrees.",
+      "precision": 0.7857142857142857,
+      "recall": 0.9166666666666666,
+      "f1": 0.8461538461538461
+    },
+    {
+      "num": 23,
+      "gold": "Decrease the brightness of the light in the bathroom by 13 percent.",
+      "prediction": "Dim the light in the bathroom to a lower intensity for nighttime.",
+      "precision": 0.4166666666666667,
+      "recall": 0.4166666666666667,
+      "f1": 0.4166666666666667
+    },
+    {
+      "num": 25,
+      "gold": "Set the intensity of the humidifier to 80% in the master bedroom.",
+      "prediction": "Turn on the humidifier in the master bedroom.",
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "num": 26,
+      "gold": "Turn off the lights in the bathroom.",
+      "prediction": "Dim the light in the bathroom to medium intensity.",
+      "precision": 0.4444444444444444,
+      "recall": 0.5714285714285714,
+      "f1": 0.5
+    },
+    {
+      "num": 27,
+      "gold": "Decrease the brightness of the light in the dining room by 73 percent.",
+      "prediction": "Dim the light in the dining room to a lower intensity for the evening.",
+      "precision": 0.5,
+      "recall": 0.5384615384615384,
+      "f1": 0.5185185185185186
+    },
+    {
+      "num": 28,
+      "gold": "Set the dehumidifiers in the living room to auto mode.",
+      "prediction": "Turn on the fan in the living room to increase airflow.",
+      "precision": 0.5454545454545454,
+      "recall": 0.6,
+      "f1": 0.5714285714285713
+    },
+    {
+      "num": 29,
+      "gold": "Set the brightness of the light to 100 in the kitchen.",
+      "prediction": "Brighten the light in the kitchen to a high intensity.",
+      "precision": 0.6,
+      "recall": 0.5454545454545454,
+      "f1": 0.5714285714285713
+    },
+    {
+      "num": 30,
+      "gold": "Set the intensity of the aromatherapy in the balcony to 100%.",
+      "prediction": "Turn on the aromatherapy diffuser in the balcony to create a pleasant medium fragrance.",
+      "precision": 0.42857142857142855,
+      "recall": 0.5454545454545454,
+      "f1": 0.4799999999999999
+    },
+    {
+      "num": 32,
+      "gold": "Set the brightness of the light to 0 in the dining room.",
+      "prediction": "Dim the light in the dining room to 50 percent.",
+      "precision": 0.7,
+      "recall": 0.5833333333333334,
+      "f1": 0.6363636363636365
+    },
+    {
+      "num": 35,
+      "gold": "Set the intensity of the humidifier to 40 in the guest bedroom.",
+      "prediction": "Turn on the humidifier in the guest bedroom.",
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "num": 36,
+      "gold": "Decrease the brightness of the light in the bathroom by 73%.",
+      "prediction": "Dim the light in the bathroom to 60 percent.",
+      "precision": 0.5555555555555556,
+      "recall": 0.45454545454545453,
+      "f1": 0.5
+    },
+    {
+      "num": 37,
+      "gold": "Set the fan speed of the air conditioner to high in the guest bedroom.",
+      "prediction": "Turn on the fan in the guest bedroom to medium intensity.",
+      "precision": 0.6363636363636364,
+      "recall": 0.5,
+      "f1": 0.56
+    },
+    {
+      "num": 39,
+      "gold": "Set the brightness of the light to 30 in the study room.",
+      "prediction": "Dim the light in the study area to 60 percent.",
+      "precision": 0.6,
+      "recall": 0.5,
+      "f1": 0.5454545454545454
+    },
+    {
+      "num": 41,
+      "gold": "Increase the brightness of the light in the living room by 23 percent.",
+      "prediction": "Turn on the light in the living room and set it to high brightness.",
+      "precision": 0.5,
+      "recall": 0.5384615384615384,
+      "f1": 0.5185185185185186
+    },
+    {
+      "num": 42,
+      "gold": "Decrease the brightness of the light on the balcony by 63 percent.",
+      "prediction": "Dim the light in the balcony to a lower brightness for evening relaxation.",
+      "precision": 0.38461538461538464,
+      "recall": 0.4166666666666667,
+      "f1": 0.4
+    },
+    {
+      "num": 46,
+      "gold": "Increase the intensity of the dehumidifier in the dining room by 70%.",
+      "prediction": "Turn on the dehumidifier in the dining room.",
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "num": 49,
+      "gold": "Turn off the light in the store room.",
+      "prediction": "Set the brightness of the light in the store room to medium intensity.",
+      "precision": 0.46153846153846156,
+      "recall": 0.75,
+      "f1": 0.5714285714285714
+    },
+    {
+      "num": 54,
+      "gold": "Set the brightness of the light to 90 on the balcony.",
+      "prediction": "Brighten the lights in the balcony to high intensity.",
+      "precision": 0.4444444444444444,
+      "recall": 0.36363636363636365,
+      "f1": 0.39999999999999997
+    }
+  ],
+  "average": {
+    "precision": 0.5828229706801135,
+    "recall": 0.5395014509300223,
+    "f1": 0.5511204701610064
+  },
+  "total_count": 35
+}

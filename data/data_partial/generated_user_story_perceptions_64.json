@@ -1,0 +1,1 @@
+{"id": "home40_one_0", "input": "Turn on the light in the master bedroom.", "output": "''' master_bedroom.light.turn_on()'''", "perception": {"contexts": ["In the master bedroom, as the sun fades beyond the horizon, the space becomes engulfed in gentle shadows, creating a tranquil yet slightly dim atmosphere, prompting a need for added illumination for evening relaxation."]}}

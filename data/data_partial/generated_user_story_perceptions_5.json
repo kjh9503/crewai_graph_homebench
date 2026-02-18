@@ -1,0 +1,13 @@
+{
+    "id": "home40_one_28",
+    "input": "Lower the air conditioner temperature in the master bedroom by 10 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(17)'''",
+    "perception": {
+        "contexts": [
+            "The stillness of the evening air becomes almost tangible, cloaking the room in a warmth that lingers unforgivingly under the cover of night, making restful sleep elusive.",
+            "The night is heavy with the oppressive warmth that persists even with the windows open, resulting in restlessness and discomfort under the layers of bedclothes.",
+            "As sleep beckons, the atmosphere in the room feels suffocating, the kind of dense warmth that clutches at the skin, compelling a need for a refreshing chill.",
+            "Lying under the blanket feels more like a sweltering cocoon, with the air in the room carrying the weight of an unyielding summer's end warmth, preventing deep, tranquil slumber."
+        ]
+    }
+}

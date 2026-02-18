@@ -1,0 +1,93 @@
+interpret_user_story_task:
+  description: >
+    Read the user_story (resident meta info/preferences) and extract actionable policies.
+    
+    User Story:
+    {user_story}
+    
+    Output MUST be a JSON object (no markdown fences) with keys:
+      - temp_pref: object or null (e.g., sleep_range array with min and max, default_sleep number)
+      - light_pref: object or null (e.g., sleep_brightness number, preferred_color string)
+      - airflow_pref: object or null (e.g., avoid_strong_fan boolean)
+      - noise_pref: object or null (e.g., avoid_loud_devices_at_night boolean)
+      - hard_constraints: list of strings (e.g., "do not use heater", "no bright light after 11pm")
+      - notes: list of strings
+    Only extract what is explicitly supported by the story. Do not guess.
+  expected_output: >
+    A single JSON object describing user policies.
+  agent: user_profile_interpreter
+
+interpret_context_task:
+  description: >
+    Read perception.contexts and infer a structured intent.
+    
+    Perception Contexts:
+    {perception_contexts}
+    
+    Output MUST be a JSON object (no markdown fences) with keys:
+      - room_hint: string or null (e.g., "master_bedroom")
+      - discomfort: short string (e.g., "too warm and stagnant air")
+      - desired_change: one of ["cool_down","warm_up","brighten","dim","turn_on","turn_off","change_color","reduce_noise","increase_airflow","other"]
+      - intensity: one of ["low","medium","high"]
+      - time_hint: string or null (e.g., "night/sleep")
+      - assumptions: list of short strings (empty list if none)
+    Do not mention any device names here; focus only on intent.
+  expected_output: >
+    A single JSON object describing the inferred intent.
+  agent: context_interpreter
+
+# plan_action_task:
+#   description: >
+#     Use the inferred intent JSON, user policy JSON, and home_status.capabilities to select an actionable plan.
+    
+#     Home Status Capabilities:
+#     {home_status}
+    
+#     Output MUST be a JSON object (no markdown fences) with keys:
+#       - room, device, operation, params, params_reasoning, fallback
+#     Parameter policy priority:
+#       1) hard_constraints from user policy must be satisfied.
+#       2) If user has a preference (e.g., sleep temp default), follow it.
+#       3) Otherwise use conservative defaults.
+#   expected_output: >
+#     A single JSON object describing the selected plan.
+#   agent: capability_planner
+#   context:
+#     - interpret_context_task
+#     - interpret_user_story_task
+
+write_command_task:
+  description: >
+    Write EXACTLY ONE natural language instruction (a single sentence) that matches HomeBench input style.
+    Requirements:
+      - Must explicitly mention the room and device (e.g., "in the master bedroom", "air conditioner").
+      - Must reflect the selected operation and params.
+      - Use imperative phrasing (e.g., "Lower...", "Set...", "Turn on...").
+      - Do not output code, tool calls, or quotes.
+    Use this style guidance:
+      - set_temperature: "Set the temperature of the air conditioner in the [room name] to [temperature] degrees."
+        or "Lower the temperature of the air conditioner in the [room name] to [temperature] degrees."
+      - set_brightness: "Dim the light in the [room name] to [brightness] percent."
+      - turn_on/off: "Turn on/off the [device name] in the [room name]."
+  expected_output: >
+    A single natural language instruction string.
+  agent: command_writer
+  # context:
+  #   - plan_action_task
+
+validate_and_finalize_task:
+  description: >
+    Validate the generated instruction against the plan, capabilities, AND user policies.
+    Output MUST be a JSON object with keys:
+      - is_valid, final_command, issues
+    Add checks:
+      - The chosen parameters do not violate user hard_constraints.
+      - If user has an explicit preference relevant to the action (e.g., sleep temp range),
+        the command follows it (or explain in issues why it could not).
+  expected_output: >
+    A single JSON object with validity and the final command.
+  agent: command_critic
+  context:
+    - interpret_user_story_task
+    # - plan_action_task
+    - write_command_task

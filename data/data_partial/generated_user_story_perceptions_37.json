@@ -1,0 +1,1 @@
+{"id": "home40_one_158", "input": "Set the fan speed of the air conditioner to high in the guest bedroom.", "output": "''' guest_bedroom.air_conditioner.set_fan_speed(high)'''", "perception": {"contexts": ["The room feels stuffy, as if the air is still and lacks circulation, making guests feel uncomfortable during their stay."]}}

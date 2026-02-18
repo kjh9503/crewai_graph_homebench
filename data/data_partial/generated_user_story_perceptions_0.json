@@ -1,0 +1,12 @@
+{
+    "id": "home40_one_33",
+    "input": "Lower the temperature of the air conditioner in the master bedroom to 20 degrees.",
+    "output": "''' master_bedroom.air_conditioner.set_temperature(20)'''",
+    "perception": {
+        "contexts": [
+            "The cool breeze in the bedroom has faded, leaving the air feeling warm and stagnant, causing the skin to stick to the bedsheets.",
+            "The gentle warmth creeping through the room disrupts the restful nighttime comfort, making it difficult to settle into restful slumber.",
+            "A gentle but persistent warmth lingers in the space, enveloping the room and making it less conducive to restful sleep."
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+{"id": "home40_one_394", "input": "Set the brightness of the light to 100 in the kitchen.", "output": "''' kitchen.light.set_brightness(100)'''", "perception": {"contexts": ["The kitchen area becomes bustling with activity as mealtime approaches, with family members preparing meals and needing ample illumination to see ingredients clearly."]}}

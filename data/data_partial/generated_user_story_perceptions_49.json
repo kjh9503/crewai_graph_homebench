@@ -1,0 +1,1 @@
+{"id": "home40_one_621", "input": "Turn off the light in the store room.", "output": "''' store_room.light.turn_off()'''", "perception": {"contexts": ["The store room is dimly illuminated with a flickering light bulb casting unnecessary shadows over the stored items, making the space appear cluttered and adding to an underutilized feel."]}}

@@ -1,0 +1,10 @@
+{
+    "id": "home40_one_330",
+    "input": "Set the brightness of the light to 80 in the study room.",
+    "output": "''' study_room.light.set_brightness(80)'''",
+    "perception": {
+        "contexts": [
+            "As the sky fades into evening hues, shadows deepen in the study room, making it challenging to continue reading papers scattered across the desk."
+        ]
+    }
+}

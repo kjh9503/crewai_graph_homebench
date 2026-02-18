@@ -1,0 +1,13 @@
+{
+    "id": "home40_one_209",
+    "input": "Increase the brightness of the light in the living room by 53 percent.",
+    "output": "''' living_room.light.set_brightness(70)'''",
+    "perception": {
+        "contexts": [
+            "As the afternoon light wanes, the room becomes shadowed and less vibrant, creating an atmosphere not quite conducive to reading or engaging in conversation.",
+            "The setting sun casts elongated shadows in the room, leaving it nestled in a dimness that feels a bit too relaxed for the evening\u2019s anticipated family gathering.",
+            "Under the subdued light, even simple activities like finding a misplaced book or remote control seem more cumbersome, highlighting a need for clearer visibility.",
+            "With overcast skies outside, the mood inside seems muted, reducing the room's usual vibrant energy, which is preferable for the mix of evening activities ahead."
+        ]
+    }
+}

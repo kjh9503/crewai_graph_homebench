@@ -1,0 +1,1 @@
+{"id": "home40_one_507", "input": "Turn on the light in the balcony.", "output": "''' balcony.light.turn_on()'''", "perception": {"contexts": ["The soft colors of twilight begin to fade as the evening advances, leaving the balcony shrouded in shadows. The once vibrant space now feels enveloped in dimness, making it challenging to enjoy the outdoor ambiance."]}}
