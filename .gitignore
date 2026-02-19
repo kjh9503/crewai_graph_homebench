@@ -5,3 +5,9 @@ __pycache__/
 
 !crewai/
 !crewai/**
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
