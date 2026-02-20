@@ -231,7 +231,6 @@ class TripletGraphBackendAdapter:
         self.steps = steps
         self.graph = InMemoryTripletGraph()
 
-        # TripletGraph 버그 방지: items가 없으면 만들어줌
         if not hasattr(self.graph, "items"):
             self.graph.items = []
 
