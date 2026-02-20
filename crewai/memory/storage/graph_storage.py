@@ -225,11 +225,7 @@ class InMemoryTripletGraph:
         return associated_triplets
 
 class TripletGraphBackendAdapter:
-    """
-    GraphBackend처럼 쓰기 위한 최소 어댑터.
-    - add_triplets: TripletGraph.add_triplets로 위임
-    - search: query를 item으로 보고 주변 triplet(BFS) 반환
-    """
+    
 
     def __init__(self, steps: int = 2):
         self.steps = steps
